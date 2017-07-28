@@ -1,0 +1,14 @@
+.pr-img {
+  width: 100%;
+  height: 306px !important;
+}
+
+.pr-txt {
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.center {
+  text-align: center !important;
+}
