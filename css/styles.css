@@ -3,11 +3,6 @@
   height: 306px !important;
 }
 
-.pr-txt {
-  background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 .center {
   text-align: center !important;
@@ -17,7 +12,8 @@
   display: none;
 }
 
-#my-name {
+  #my-name,
+.pr-txt {
   /* font-size: 72px; */
   background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
@@ -34,4 +30,8 @@
   right: 0;
   bottom: 0;
   padding: 0 30px 22px;
+}
+
+.abt-img {
+  height: 297px !important;
 }
