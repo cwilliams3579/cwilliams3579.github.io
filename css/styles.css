@@ -12,3 +12,26 @@
 .center {
   text-align: center !important;
 }
+
+#about-me {
+  display: none;
+}
+
+#my-name {
+  /* font-size: 72px; */
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tiles-blog .tiles-margins {
+  padding: 2px 2px 2px 2px;
+}
+
+.tiles-blog .tiles-margins .tiles-blog-post .tiles-post-body {
+  position: absolute !important;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 30px 22px;
+}
