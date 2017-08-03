@@ -3157,7 +3157,7 @@ section {
   transition: all 0.2s cubic-bezier(0.72, 1.2, 0.71, 0.72);
 }
 
-@font-face {
+/* @font-face {
   font-family: "Roboto";
   src: local(Roboto Thin), url("../font/roboto/Roboto-Thin.eot");
   src: url("../font/roboto/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("../font/roboto/Roboto-Thin.woff2") format("woff2"), url("../font/roboto/Roboto-Thin.woff") format("woff"), url("../font/roboto/Roboto-Thin.ttf") format("truetype");
@@ -3169,8 +3169,8 @@ section {
   src: local(Roboto Light), url("../font/roboto/Roboto-Light.eot");
   src: url("../font/roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../font/roboto/Roboto-Light.woff2") format("woff2"), url("../font/roboto/Roboto-Light.woff") format("woff"), url("../font/roboto/Roboto-Light.ttf") format("truetype");
   font-weight: 300;
-}
-
+} */
+/* 
 @font-face {
   font-family: "Roboto";
   src: local(Roboto Regular), url("../font/roboto/Roboto-Regular.eot");
@@ -3190,7 +3190,7 @@ section {
   src: url("../font/roboto/Roboto-Bold.eot");
   src: url("../font/roboto/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../font/roboto/Roboto-Bold.woff2") format("woff2"), url("../font/roboto/Roboto-Bold.woff") format("woff"), url("../font/roboto/Roboto-Bold.ttf") format("truetype");
   font-weight: 700;
-}
+} */
 
 body {
   font-family: "Roboto", sans-serif;
@@ -8976,11 +8976,11 @@ header .view {
   transition: all 0.4s ease-in-out;
 }
 
-.pattern-1 {
+/* .pattern-1 {
   background: url(../img/overlays/01.png);
-}
+} */
 
-.pattern-2 {
+/* .pattern-2 {
   background: url(../img/overlays/02.png);
 }
 
@@ -8998,9 +8998,9 @@ header .view {
 
 .pattern-6 {
   background: url(../img/overlays/06.png);
-}
+} */
 
-.pattern-7 {
+/* .pattern-7 {
   background: url(../img/overlays/07.png);
 }
 
@@ -9010,7 +9010,7 @@ header .view {
 
 .pattern-9 {
   background: url(../img/overlays/09.png);
-}
+} */
 
 .hm-blue-light .mask,
 .hm-blue-light .full-bg-img {
@@ -9459,13 +9459,13 @@ ul.instagram-photos li img {
   height: 36px;
 }
 
-.carousel .carousel-control-prev-icon {
+/* .carousel .carousel-control-prev-icon {
   background-image: url(../img/svg/arrow_left.svg);
 }
 
 .carousel .carousel-control-next-icon {
   background-image: url(../img/svg/arrow_right.svg);
-}
+} */
 
 .carousel .carousel-indicators li {
   max-width: 10px;
@@ -13573,14 +13573,14 @@ html [type="button"],
   opacity: 1;
 }
 
-.pswp__button,
+/* .pswp__button,
 .pswp__button--arrow--left:before,
 .pswp__button--arrow--right:before {
   background: url(../img/lightbox/default-skin.png) 0 0 no-repeat;
   background-size: 264px 88px;
   width: 44px;
   height: 44px;
-}
+} */
 
 @media (-webkit-min-device-pixel-ratio: 1.1),
 (-webkit-min-device-pixel-ratio: 1.09375),
@@ -13589,11 +13589,11 @@ html [type="button"],
 (-o-min-device-pixel-ratio: 11/10),
 (min-resolution: 1.1dppx) {
   /* Serve SVG sprite if browser supports SVG and resolution is more than 105dpi */
-  .pswp--svg .pswp__button,
+  /* .pswp--svg .pswp__button,
   .pswp--svg .pswp__button--arrow--left:before,
   .pswp--svg .pswp__button--arrow--right:before {
-    background-image: url(../img/lightbox/default-skin.svg);
-  }
+     background-image: url(../img/lightbox/default-skin.svg); 
+  } */
   .pswp--svg .pswp__button--arrow--left,
   .pswp--svg .pswp__button--arrow--right {
     background: none;
@@ -14840,7 +14840,7 @@ a.pswp__share--download:hover {
   transition: all 150ms ease-in 0s;
 }
 
-.sn-bg-1 {
+/* .sn-bg-1 {
   background-image: url(https://mdbootstrap.com/img/Photos/Others/sidenav1.jpg);
 }
 
@@ -14854,7 +14854,7 @@ a.pswp__share--download:hover {
 
 .sn-bg-4 {
   background-image: url(https://mdbootstrap.com/img/Photos/Others/sidenav4.jpg);
-}
+} */
 
 .deep-purple-skin .gradient {
   background: #282233;
