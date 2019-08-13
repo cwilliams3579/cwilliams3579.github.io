@@ -1,521 +1,612 @@
-<!DOCTYPE html>
-<html lang="en" class="full-height">
-
-<head>
+<!DOCTYPE HTML>
+<html>
+	<head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Cleveland Williams</title>
-	<meta property="og:title" content="Cleveland Williams Portfolio">
-	<meta property="og:site_name" content="cwilliams3579.github.io">
-	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'/>
-	<link href="css/mdb.purify.css" rel="stylesheet">
-	<style>
-		.pr-img {
-			width: 100%;
-			height: 306px !important;
-		}
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Cleveland Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
 
-		.center {
-			text-align: center !important;
-		}
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-		#about-me {
-			display: none;
-		}
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
 
-		#my-name,
-		.pr-txt {
-			background: -webkit-linear-gradient(#eee, #333);
-			-webkit-background-clip: text;
-			-webkit-text-fill-color: transparent;
-		}
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<!-- Fontawesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/v4-shims.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
-		.tiles-blog .tiles-margins {
-			padding: 2px 2px 2px 2px;
-		}
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-		.tiles-blog .tiles-margins .tiles-blog-post .tiles-post-body {
-			position: absolute !important;
-			left: 0;
-			right: 0;
-			bottom: 0;
-			padding: 0 30px 22px;
-		}
-
-		.abt-img {
-			height: 297px !important;
-		}
-
-		.fa-facebook:hover {
-			color: #3b5998;
-		}
-
-		.fa-fire:hover {
-			color: #006400;
-		}
-
-		.fa-codepen:hover {
-			color: #000;
-		}
-
-		.fa-github:hover {
-			color: darkgrey;
-		}
-
-		.flex-center {
-			display: -webkit-box;
-			display: -webkit-flex;
-			display: -ms-flexbox;
-			display: flex;
-			-webkit-box-pack: center;
-			-webkit-justify-content: center;
-			-ms-flex-pack: center;
-			justify-content: center;
-			-webkit-box-align: center;
-			-webkit-align-items: center;
-			-ms-flex-align: center;
-			align-items: center;
-			height: 100%;
-		}
-
-		.navbar {
-			font-weight: 300;
-		}
-
-		.navbar .navbar-brand {
-			-webkit-align-self: flex-start;
-			-ms-flex-item-align: start;
-			align-self: flex-start;
-			overflow: visible;
-		}
-
-		.navbar.navbar-dark .navbar-brand {
-			color: #fff;
-		}
-	</style>
-</head>
-
-<body class="architect">
-	<header>
-		<nav class="navbar navbar-dark grey-gradient fixed-top navbar-toggleable-md scrolling-navbar smooth-scroll">
-			<div class="container"><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-				 aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-				<div class="collapse navbar-collapse"
-				 id="navbarNav">
-					<ul class="navbar-nav mr-auto smooth-scroll">
-						<li class="nav-item"><a class="navbar-brand" href="#home">Home <span class="sr-only">(current)</span></a></li>
-						<li class="nav-item"><a class="nav-link" href="#about" data-offset="90">About Me</a></li>
-						<li class="nav-item"><a class="nav-link" href="#portfolio" data-offset="30">Portfolio</a></li>
-						<li class="nav-item"><a class="nav-link" href="#contact" data-offset="100">Contact</a></li>
-					</ul>
-					<ul class="nav navbar-nav nav-flex-icons">
-						<li class="nav-item"><a href="https://github.com/cwilliams3579" target="_blank" class="nav-link"><i class="fa fa-github"></i></a></li>
-						<li
-						 class="nav-item"><a href="https://www.freecodecamp.com/cwilliams3579" target="_blank" class="nav-link"><i class="fa fa-fire"></i></a></li>
-							<li
-							 class="nav-item"><a href="http://codepen.io/cwilliams3579/" target="_blank" class="nav-link"><i class="fa fa-codepen"></i></a></li>
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url(images/about.jpg);"></div>
+				<h1 id="colorlib-logo"><a href="index.html">Cleveland Williams</a></h1>
+				<span class="position"><a href="#">Truck Driver</a> OTR</span>
+			</div>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
+						<li><a href="#" data-nav-section="about">About</a></li>
+						<li><a href="#" data-nav-section="skills">Skills</a></li>
+						<li><a href="#" data-nav-section="education">Education</a></li>
+						<li><a href="#" data-nav-section="experience">Experience</a></li>
+						<li><a href="#" data-nav-section="contact">Contact</a></li>
 					</ul>
 				</div>
-			</div>
-		</nav>
-		<div class="view intro" id="home" style="background-image:url('https://github.com/cwilliams3579/Screenshots/blob/master/ruby-on-rails-custom.jpg?raw=true')">
-			<div class="full-bg-img flex-center">
-				<div class="container">
-					<div class="wow fadeInUp">
-						<h2 class="intro-heading text-white center" id="rm-btn">Cleveland Williams</h2>
-						<h2 class=" mt-3 pr-txt center">Welcome to my portfolio!</h2>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-	<main>
-		<div class="container-fluid" style="background-color: #323438;">
-			<div class="container pt-3">
-				<section id="about" class="section pt-2 pb-5">
-					<h1 class="text-center text-white font-up font-bold pb-1 wow fadeIn" data-wow-delay="0.2s">About me</h1>
-					<p class="text-center text-white font-up font-bold wow fadeIn" data-wow-delay="0.2s">All about my passion</p>
-					<div class="line wow fadeIn" data-wow-delay="0.2s"></div>
-					<div class="row pt-4">
-						<div class="col-lg-5 col-md-12 mb-2 wow fadeIn" data-wow-delay="0.4s"><img src="https://github.com/cwilliams3579/Screenshots/blob/master/profile-pic.jpg?raw=true" class="rounded-circle abt-img center-on-small-only"
-							 alt="My photo"></div>
-						<div class="col-lg-6 offset-lg-1 col-md-12 wow fadeIn" data-wow-delay="0.4s">
-							<p class="text-white">My name is Cleveland Williams and I am a web developer who specializes in creating dynamic and beautiful websites.Beforemyjourney
-								as a web developer I repaired computers &amp; build high end gaming pcs. After building computersfor solong,I became
-								interested in web development after which I encountered valuable resources. Among them wereCodingDojo anonsite bootcamp,
-								Udemy and FreeCodeCamp.</p>
-							<p class="text-white" id="about-me">The Coding Dojo courses were focused on laying a foundation for web development. The instructors were awesome andveryknowledgeable.I
-								started out with the fundamentals of HTML, CSS and JavaScript. The instructors taught us threefullstacks includingPython,
-								M.E.A.N and Ruby on Rails. After the first few weeks of building cool web apps withdifferentframeworks, mylove affair
-								with web development began. I would literally spend hours working on projectswhile implimentingnew featuresand techniques.
-								Web development is now my obsession and without it feels like a partof me is missing.</p>
-							<div class="center"><button onclick="myFunction()" class="btn btn-lg btn btn-outline-white waves-effect pr-txt">Read More</button></div>
-						</div>
-					</div>
-				</section>
-			</div>
-		</div>
-		<div class="container">
-			<section id="services" class="section feature-box pt-3 pb-4">
-				<h1 class="text-center font-up font-bold mt-1 pb-1 wow fadeIn pr-txt" data-wow-delay="0.2s">Process of creation</h1>
-				<p class="text-center font-up font-bold wow fadeIn" data-wow-delay="0.2s">All about my work</p>
-				<div class="line wow fadeIn" data-wow-delay="0.2s"></div>
-				<div class="row wow fadeIn" data-wow-delay="0.2s">
-					<div class="col-lg-3 col-md-6 text-center pt-4">
-						<div class="icon-area">
-							<div class="circle-icon"><i class="fa fa-pencil"></i></div><br><strong>Planning</strong>
-							<p>Create an outline of the site content along with a functional flow chart. Document programmatic flow and gather generalinformationincludingsamples,
-								style guides, images and graphic files.</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 text-center pt-4">
-						<div class="icon-area">
-							<div class="circle-icon"><i class="fa fa-paint-brush"></i></div><br><strong>Design</strong>
-							<p>Create color layouts based on approved ‘wireframe’ layouts. Research stock photography and develop graphics. Createstyleguideof
-								colors and fonts for site development.</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 text-center pt-4">
-						<div class="icon-area">
-							<div class="circle-icon"><i class="fa fa-pencil"></i></div><br><strong>Content Writing</strong>
-							<p>Content writing and compiling usually overlaps with other stages of website creation, and its role can’t be underestimated.Contentwritinginvolves
-								creation of headlines, text editing, writing new text, compiling the existing text, etc...</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 text-center pt-4">
-						<div class="icon-area">
-							<div class="circle-icon"><i class="fa fa-code"></i></div><br><strong>coding</strong>
-							<p>The home page is usually created first, and then all sub-pages are added, according to the website hierarchy thatwaspreviouslycreated
-								in the form of a sitemap. All static page elements that were designed during the layout creationwillbe createdand
-								tested.</p>
-						</div>
-					</div>
-				</div>
+			</nav>
+
+		</aside>
+
+		<div id="colorlib-main">
+			<section id="colorlib-hero" class="js-fullheight" data-section="home">
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+				   	<li style="background-image: url(images/img_bg_1.jpg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<!-- <div class="slider-text-inner js-fullheight">
+					   					<div class="desc">
+											<h1>
+												<div><span style="color:#001eff;">H</span><span style="color:#1d22df;">i</span><span
+														style="color:#3a26c0;">!</span><span style="color:#572aa0;"> </span><span
+														style="color:#752f80;">I</span><span style="color:#923360;">'</span><span
+														style="color:#af3741;">m</span><span style="color:#cc3b21;"> </span><span
+														style="color:#e93f01;">C</span><span style="color:#cc3703;">l</span><span
+														style="color:#af3004;">e</span><span style="color:#922806;">v</span><span
+														style="color:#752107;">e</span><span style="color:#581909;">l</span><span
+														style="color:#3b110a;">a</span><span style="color:#1e0a0c;">n</span><span
+														style="color:#01020d;">d</span></div>
+											</h1>
+												<a><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
+											</div>
+					   				</div> -->
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				   	<li style="background-image: url(images/img_bg_2.jpg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<!-- <div class="slider-text-inner">
+					   					<div class="desc">
+						   					<h1>I am <br>a Truck Driver</h1>
+												<p><a class="btn btn-primary btn-learn">View Portfolio <i class="icon-briefcase3"></i></a></p>
+											</div>
+					   				</div> -->
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				  	</ul>
+			  	</div>
 			</section>
-		</div>
-		<div class="container-fluid" style="background-color: #e8eaec;">
-			<div class="container-fluid">
-				<section id="portfolio" class="section pt-3 pb-3">
-					<h1 class="text-center font-up font-bold mt-2 wow fadeIn pr-txt" data-wow-delay="0.2s">My projects</h1>
-					<p class="text-center font-up font-bold wow fadeIn" data-wow-delay="0.2s">All about my work</p>
-					<div class="line line-v2 wow fadeIn" data-wow-delay="0.2s"></div>
-					<p class="section-description mt-5">Below are projects that I'm either working on or projects that I have used for practice.</p>
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="tiles-blog">
-									<div class="row">
-										<div class="col-xl-3 col-md-6 tiles-margins wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-											<div class="tiles-blog-post waves-effect waves-light z-depth-1">
-												<a href="https://generationsrs.com/" target="_blank">
-													<div class="tiles-image hm-zoom"><img src="https://github.com/cwilliams3579/Screenshots/blob/master/grs.png?raw=true" class="img-fluid pr-img"
-														 alt="grs"></div>
-												</a>
-												<div class="tiles-post-body">
-													<h3 class="tiles-post-title h3-responsive center"><a href="https://generationsrs.com/" target="_blank" class="pr-txt center">Generationsrs</a></h3>
-												</div>
-											</div>
-										</div>
-										<div class="col-xl-3 col-md-6 tiles-margins wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-											<div class="tiles-blog-post waves-effect waves-light z-depth-1">
-												<a href="http://conceivedconceptsphotography.com/" target="_blank">
-													<div class="tiles-image hm-zoom"><img src="https://github.com/cwilliams3579/Screenshots/blob/master/conceptsphoto.jpg?raw=true" class="img-fluid pr-img"
-														 alt="concepts hphotos"></div>
-												</a>
-												<div class="tiles-post-body">
-													<h3 class="tiles-post-title h3-responsive center"><a href="#!" class="pr-txt center">Concepts Photos</a></h3>
-												</div>
-											</div>
-										</div>
-										<div class="col-xl-3 col-md-6 tiles-margins wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-											<div class="tiles-blog-post waves-effect waves-light z-depth-1">
-												<a href="#!">
-													<div class="tiles-image hm-zoom"><img src="https://github.com/cwilliams3579/Screenshots/blob/master/bahamagist.jpg?raw=true" class="img-fluid pr-img"
-														 alt="BahamaGist"></div>
-												</a>
-												<div class="tiles-post-body">
-													<h3 class="tiles-post-title h3-responsive center"><a href="#!" class="pr-txt center">Bahama Gist</a></h3>
-												</div>
-											</div>
-										</div>
-										<div class="col-xl-3 col-md-6 tiles-margins wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-											<div class="tiles-blog-post waves-effect waves-light z-depth-1">
-												<a href="http://lapommeluxury.com/" target="_blank">
-													<div class="tiles-image hm-zoom"><img src="https://github.com/cwilliams3579/Screenshots/blob/master/lapomme.png?raw=true" class="img-fluid pr-img"
-														 alt="lapommeluxury"></div>
-												</a>
-												<div class="tiles-post-body">
-													<h3 class="tiles-post-title h3-responsive center"><a href="#!" class="pr-txt center">Lapomme Luxury</a></h3>
-												</div>
-											</div>
-										</div>
-										<div class="col-xl-3 col-md-6 tiles-margins wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-											<div class="tiles-blog-post waves-effect waves-light z-depth-1">
-												<a href="https://codepen.io/cwilliams3579/pen/bBVEma" target="_blank">
-													<div class="tiles-image hm-zoom"><img src="https://github.com/cwilliams3579/Screenshots/blob/master/ninja-sort.png?raw=true" class="img-fluid pr-img"
-														 alt="Ninja Sort"></div>
-												</a>
-												<div class="tiles-post-body">
-													<h3 class="tiles-post-title h3-responsive center"><a href="#!" class="pr-txt center">Ninja Sort</a></h3>
-												</div>
-											</div>
-										</div>
-										<div class="col-xl-3 col-md-6 tiles-margins wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-											<div class="tiles-blog-post waves-effect waves-light z-depth-1">
-												<a href="https://codepen.io/cwilliams3579/pen/xRwZZM" target="_blank">
-													<div class="tiles-image hm-zoom"><img src="https://github.com/cwilliams3579/Screenshots/blob/master/pokedex.png?raw=true" class="img-fluid pr-img"
-														 alt="Pokedex"></div>
-												</a>
-												<div class="tiles-post-body">
-													<h3 class="tiles-post-title h3-responsive center"><a href="#!" class="pr-txt center">Pokedex</a></h3>
-												</div>
-											</div>
-										</div>
-										<div class="col-xl-3 col-md-6 tiles-margins wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-											<div class="tiles-blog-post waves-effect waves-light z-depth-1">
-												<a href="https://mysterious-river-34583.herokuapp.com/" target="_blank">
-													<div class="tiles-image hm-zoom"><img src="https://github.com/cwilliams3579/Screenshots/blob/master/manage-screenshot.jpg?raw=true" class="img-fluid pr-img"
-														 alt="project-management"></div>
-												</a>
-												<div class="tiles-post-body">
-													<h3 class="tiles-post-title h3-responsive center"><a href="https://mysterious-river-34583.herokuapp.com/" target="_blank" class="pr-txt center">Project Management</a></h3>
-												</div>
-											</div>
-										</div>
-										<div class="col-xl-3 col-md-6 tiles-margins wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-											<div class="tiles-blog-post waves-effect waves-light z-depth-1">
-												<a href="https://warm-mountain-91570.herokuapp.com/" target="_blank">
-													<div class="tiles-image hm-zoom"><img src="https://github.com/cwilliams3579/Screenshots/blob/master/blogger.jpg?raw=true" class="img-fluid pr-img"
-														 alt="blogger"></div>
-												</a>
-												<div class="tiles-post-body">
-													<h3 class="tiles-post-title h3-responsive center"><a href="https://warm-mountain-91570.herokuapp.com/" target="_blank" class="pr-txt center">Blogger Spot</a></h3>
-												</div>
-											</div>
-										</div>
+
+			<section class="colorlib-about" data-section="about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<div class="about-desc">
+										<span class="heading-meta">About Me</span>
+										<h2 class="colorlib-heading">Who Am I?</h2>
+										<p><strong>Hi I'm Cleveland Williams</strong> </p>
+										<p>My mission is to abtain a challenging position as a truck driver in a well-established company that can
+											assist me in gaining complete knowledge regarding professional driving services. I'm proficient in driving
+											diverse vehicles using air brakes with manual transmission while demonstrating safety and precautionary
+											measures on any heavy duty vehicles. I hold both hazmat and tanker (N) endorsements.<p>
 									</div>
-									<div class="row">
-										<div class="col-xl-3 col-md-6 tiles-margins wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-											<div class="tiles-blog-post waves-effect waves-light z-depth-1">
-												<a href="#!">
-													<div class="tiles-image hm-zoom"><img src="https://github.com/cwilliams3579/Screenshots/blob/master/yelp.jpg?raw=true" class="img-fluid pr-img"
-														 alt="yelp demo"></div>
-												</a>
-												<div class="tiles-post-body">
-													<h3 class="tiles-post-title h3-responsive center"><a href="#!" class="pr-txt center">Yelp Clone</a></h3>
-												</div>
-											</div>
-										</div>
-										<div class="col-xl-3 col-md-6 tiles-margins wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-											<div class="tiles-blog-post waves-effect waves-light z-depth-1">
-												<a href="http://codepen.io/cwilliams3579/pen/RoBYOK" target="_blank">
-													<div class="tiles-image hm-zoom"><img src="https://github.com/cwilliams3579/Screenshots/blob/master/random-quote.png?raw=true" class="img-fluid pr-img"
-														 alt="random-quote"></div>
-												</a>
-												<div class="tiles-post-body">
-													<h3 class="tiles-post-title h3-responsive center"><a href="http://codepen.io/cwilliams3579/pen/RoBYOK" target="_blank" class="pr-txt center">Random Quotes</a></h3>
-												</div>
-											</div>
-										</div>
-										<div class="col-xl-3 col-md-6 tiles-margins wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-											<div class="tiles-blog-post waves-effect waves-light z-depth-1">
-												<a href="http://codepen.io/cwilliams3579/pen/BQojOw" target="_blank">
-													<div class="tiles-image hm-zoom"><img src="https://github.com/cwilliams3579/Screenshots/blob/master/ninja-cat.png?raw=true" class="img-fluid pr-img"
-														 alt="ninja-cat"></div>
-												</a>
-												<div class="tiles-post-body">
-													<h3 class="tiles-post-title h3-responsive center"><a href="http://codepen.io/cwilliams3579/pen/BQojOw" target="_blank" class="pr-txt center">Ninja Cat</a></h3>
-												</div>
-											</div>
-										</div>
-										<div class="col-xl-3 col-md-6 tiles-margins wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-											<div class="tiles-blog-post waves-effect waves-light z-depth-1">
-												<a href="#!">
-													<div class="tiles-image hm-zoom"><img src="https://github.com/cwilliams3579/Screenshots/blob/master/SpaceTroopers.png?raw=true" class="img-fluid pr-img"
-														 alt="space-troopers"></div>
-												</a>
-												<div class="tiles-post-body">
-													<h3 class="tiles-post-title h3-responsive center"><a href="#!" class="pr-txt center">Space Troopers</a></h3>
-												</div>
-											</div>
-										</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+									<div class="services color-1">
+										<span class="icon2"><img src="/fonts/icomoon/books.svg" alt="books"></span>
+										<h3>Studying</h3>
 									</div>
-									<div class="row">
-										<div class="col-xl-3 col-md-6 tiles-margins wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-											<div class="tiles-blog-post waves-effect waves-light z-depth-1">
-												<a href="https://github.com/cwilliams3579/Group-Chat" target="_blank">
-													<div class="tiles-image hm-zoom"><img src="https://github.com/cwilliams3579/Screenshots/blob/master/group-chat.png?raw=true" class="img-fluid pr-img"
-														 alt="group-chat"></div>
-												</a>
-												<div class="tiles-post-body">
-													<h3 class="tiles-post-title h3-responsive center"><a href="https://github.com/cwilliams3579/Group-Chat" target="_blank" class="pr-txt center">Group Chat</a></h3>
-												</div>
-											</div>
-										</div>
-										<div class="col-xl-3 col-md-6 tiles-margins wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-											<div class="tiles-blog-post waves-effect waves-light z-depth-1">
-												<a href="http://codepen.io/cwilliams3579/pen/PbPZvJ" target="_blank">
-													<div class="tiles-image hm-zoom"><img src="https://github.com/cwilliams3579/Screenshots/blob/master/dbz-hover.png?raw=true" class="img-fluid pr-img"
-														 alt="dbz-hover"></div>
-												</a>
-												<div class="tiles-post-body">
-													<h3 class="tiles-post-title h3-responsive center"><a href="#!" class="pr-txt center">DBZ Hover</a></h3>
-												</div>
-											</div>
-										</div>
-										<div class="col-xl-3 col-md-6 tiles-margins wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-											<div class="tiles-blog-post waves-effect waves-light z-depth-1">
-												<a href="http://codepen.io/cwilliams3579/pen/RoWrxR" target="_blank">
-													<div class="tiles-image hm-zoom"><img src="https://github.com/cwilliams3579/Screenshots/blob/master/mario.png?raw=true" class="img-fluid pr-img"
-														 alt="mario"></div>
-												</a>
-												<div class="tiles-post-body">
-													<h3 class="tiles-post-title h3-responsive center"><a href="http://codepen.io/cwilliams3579/pen/RoWrxR" target="_blank" class="pr-txt center">Super Mario</a></h3>
-												</div>
-											</div>
-										</div>
-										<div class="col-xl-3 col-md-6 tiles-margins wow fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-											<div class="tiles-blog-post waves-effect waves-light z-depth-1">
-												<a href="https://github.com/cwilliams3579/Python201608/tree/master/WilliamsCleveland/Assignments/Flask/NinjaGold"
-												 target="_blank">
-													<div class="tiles-image hm-zoom"><img src="https://github.com/cwilliams3579/Screenshots/blob/master/ninja-gold-flask.png?raw=true" class="img-fluid pr-img"
-														 alt="ninja-gold"></div>
-												</a>
-												<div class="tiles-post-body">
-													<h3 class="tiles-post-title h3-responsive center"><a href="https://github.com/cwilliams3579/Python201608/tree/master/WilliamsCleveland/Assignments/Flask/NinjaGold"
-														 target="_blank" class="pr-txt">Ninja Gold</a></h3>
-												</div>
-											</div>
-										</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+									<div class="services color-2">
+										<span class="icon2"><span class="icon2"><img src="/fonts/icomoon/training.svg" alt="training"></span></span>
+										<h3>Training</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
+									<div class="services color-3">
+										<span class="icon2"><span class="icon2"><img src="/fonts/icomoon/test.svg" alt="test" style="width: 100%; height:auto;"></span></span>
+										<h3>CDL Test</h3>
+									</div>
+								</div>
+								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+									<div class="services color-4">
+										<span class="icon2"><span class="icon2"><img src="/fonts/icomoon/driver.svg" alt="driver" style="width: 100%; height:auto;"></span></span>
+										<h3>Driving</h3>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</section>
-			</div>
-		</div>
-		<div class="streak streak-lg hm-black-strong streak-photo view" style="background-image:url('https://github.com/cwilliams3579/Screenshots/blob/master/html5.jpeg?raw=true')">
-			<div class="mask flex-center pattern-1">
-				<ul class="white-text smooth-scroll wow fadeIn" data-wow-delay="0.2s">
-					<li>
-						<h3 class="h3-responsive text-white"><i class="fa fa-quote-left" aria-hidden="true"></i> Keep Calm And Code.<i class="fa fa-quote-right" aria-hidden="true"></i></h3>
-					</li>
-					<li>
-						<h5 class="text-center font-italic wow fadeIn text-white" data-wow-delay="0.2s">~ Cleveland Williams </h5>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div class="container">
-			<section class="section mb-4">
-				<div class="row wow fadeIn" data-wow-delay="0.4s">
-					<div class="streak streak-lg hm-black-strong streak-photo view" style="background-image:url('https://github.com/cwilliams3579/Screenshots/blob/master/html5.jpeg?raw=true')">
-						<div class="mask flex-center pattern-1">
-							<ul class="white-text smooth-scroll wow fadeIn" data-wow-delay="0.2s">
-								<li>
-									<h3 class="h3-responsive"><i class="fa fa-quote-left" aria-hidden="true"></i> Keep Calm And Code.<i class="fa fa-quote-right" aria-hidden="true"></i></h3>
-								</li>
-								<li>
-									<h5 class="text-center font-italic wow fadeIn" data-wow-delay="0.2s">~ Cleveland Williams </h5>
-								</li>
-							</ul>
+				</div>
+			</section>
+
+			
+			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
+				<div class="overlay"></div>
+				<div class="colorlib-narrow-content">
+					<div class="row">
+					</div>
+					<div class="row">
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="309" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Cups of coffee</span>
+						</div>
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="100" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Deliveries</span>
+						</div>
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="0" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Accidents</span>
+						</div>
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="0" data-to="18" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="colorlib-counter-label">Driving - MM</span>
 						</div>
 					</div>
-					<div class="container">
-						<section id="contact" class="section mb-4">
-							<h2 class="text-center font-up font-bold mt-5 wow fadeIn pr-txt" data-wow-delay="0.2s">Contact me</h2>
-							<p class="text-center font-up font-bold wow fadeIn" data-wow-delay="0.2s">to get more information</p>
-							<div class="line wow fadeIn" data-wow-delay="0.2s"></div>
-							<p class="section-description mb-5 mt-4 wow fadeIn" data-wow-delay="0.2s"> Interested in working with me? Leave me a message and I will respond as soon as possible.</p>
-							<div class="row wow fadeIn"
-							 data-wow-delay="0.4s">
-								<div class="col-md-8 mb-r">
-									<form action="https://formspree.io/clevelandwilliams3579@gmail.com" method="POST">
-										<div class="row">
-											<div class="col-md-6">
-												<div class="md-form">
-													<div class="md-form"><input type="text" name="name" id="form41" class="form-control"><label for="form41" class="">Your name</label></div>
+				</div>
+			</div>
+
+			<section class="colorlib-skills" data-section="skills">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">My Specialty</span>
+							<h2 class="colorlib-heading animate-box">My Skills</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Dry Van</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:100%">
+								    <span>90%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="progress-wrap">
+								<h3>Reefer</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="90"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+								    <span>90%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="progress-wrap">
+								<h3>Straight Truck</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:95%">
+								    <span>95%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-education" data-section="education">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Education</span>
+							<h2 class="colorlib-heading animate-box">Education</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingFour">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Career Tech
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+									        <div class="panel-body">
+												<p>My time here was a great learning experience and where my CDL career began. The teachers here were very
+													knowledgable and taught me everything such as pre/post trip inspections, straight line backing, alley docking and parallel parking.
+													I spent around 3-4 weeks here and was able to pass my cdl test on the first try.</p>
+									        </div>
+									    </div>
+									</div>
+
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingFive">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">High School Secondary Education
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+									        <div class="panel-body">
+									            <p><strong>C.C Sweeting Senior High</strong> </p>	
+									        </div>
+									    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-experience" data-section="experience">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Experience</span>
+							<h2 class="colorlib-heading animate-box">Work Experience</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+									  <!-- <i class="icon-pen2"></i>
+									  <i class="fas fa-truck"></i> -->
+									  <img src="/fonts/icomoon/frontal-truck.svg" alt="frontal-truck" style="width:16px;">
+					               </div>
+
+					              <div class="timeline-label">
+					                <h2><a href="#">FedEX Custom Critical</a> - <span>Truck Driver Oct 2018 - Current</span></h2>
+													<ul>
+														<li>Operated tractor trailer 53 footer reefer.</li>
+														<li>Full compliance with state and federal regulations.</li>
+														<li>Submit reports before and after each trip.</li>
+														<li>Processed shipment documents neatly and efficiently for each load.</li>
+														<li>Provided courteous customer service.</li>
+													</ul>
 												</div>
-											</div>
-											<div class="col-md-6">
-												<div class="md-form">
-													<div class="md-form"><input type="email" id="form52" name="_replyto" class="form-control"><label for="form52" class="">Your email</label></div>
-												</div>
-											</div>
+					            </div>
+					         </article>
+
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					                  <img src="/fonts/icomoon/frontal-truck.svg" alt="frontal-truck" style="width:16px;">
+					               </div>
+					               <div class="timeline-label">
+													 <h2><a href="#">Mesilla Valley Transpotation</a> - <span>Truck Driver Aug 2018 - Oct 2018</span></h2>
+													<ul>
+														<li>Operated tractor trailer 53 footer dry van.</li>
+														<li>Full compliance with state and federal regulations.</li>
+														<li>Submit reports before and after each trip.</li>
+														<li>Processed shipment documents neatly and efficiently for each load.</li>
+													</ul>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-3">
+					                  <img src="/fonts/icomoon/frontal-truck.svg" alt="frontal-truck" style="width:16px;">
+					               </div>
+					               <div class="timeline-label">
+													 <h2><a href="#">Pam Transport</a> - <span>Truck Driver Feb 2018 - Aug 2018</span></h2>
+													<ul>
+														<li>Operated tractor trailer 53 footer dry van.</li>
+														<li>Full compliance with state and federal regulations.</li>
+														<li>Submit reports before and after each trip.</li>
+														<li>Processed shipment documents neatly and efficiently for each load.</li>
+													</ul>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-4">
+					                  <img src="/fonts/icomoon/worker.svg" alt="worker" style="width:16px;">
+					               </div>
+					               <div class="timeline-label">
+					               		<h2><a href="#">Caliber Communications</a> - <span>Cable Tech Mar 2017 - Jun 2017</span></h2>
+										<ul>
+											<li>Perform new installations and upgrades.</li>
+											<li>Install internet, phone and television services for customers.</li>
+											<li>Recommend equipment installation layout for customers.</li>
+										</ul>
+									</div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-5">
+									  <!-- <i class="icon-pen2"></i> -->
+									  <img src="/fonts/icomoon/driver.svg" alt="driver" style="width:16px;">
+					               </div>
+					               <div class="timeline-label">
+									   <h2><a href="#">Uber - Driver</a> <span>Mar 2016 – Jun 2016</span></h2>
+									   <ul>
+										   <li>Pick-up riders and take them to their preferred location.</li>
+										   <li>Help with luggage and other passenger belongings.</li>
+										   <li>Built trust among riders and engaged in general conversation.</li>
+									   </ul>
+					               </div>
+					            </div>
+					         </article>
+							 
+							 <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-5">
+					                  <img src="/fonts/icomoon/driver.svg" alt="driver" style="width:16px;">
+					               </div>
+					               <div class="timeline-label">
+									   <h2><a href="#">Lyft - Driver</a> <span>Mar 2016 – Jun 2016</span></h2>
+									   <ul>
+										   <li>Pick-up riders and take them to their preferred location.</li>
+										   <li>Help with luggage and other passenger belongings.</li>
+										   <li>Built trust among riders and engaged in general conversation.</li>
+									   </ul>
+					               </div>
+					            </div>
+					         </article>
+							 
+							 <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-5">
+					                  <img src="/fonts/icomoon/driver.svg" alt="driver" style="width:16px;">
+					               </div>
+					               <div class="timeline-label">
+									   <h2><a href="#">Door dash - Courier</a> <span>Mar 2016 – Jun 2016</span></h2>
+									   <ul>
+										   <li>Delivered food to customers in a timely manner.</li>
+										   <li>Provide a simple and a delightful delivery for customers.</li>
+									   </ul>
+					               </div>
+					            </div>
+					         </article>
+							 
+							 <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-5">
+					                  <img src="/fonts/icomoon/worker.svg" alt="worker" style="width:16px;">
+					               </div>
+					               <div class="timeline-label">
+									   <h2><a href="#">Mills & Nebraska – Carpenter Apprentice</a> <span>Dec 2015 – Jun 2016</span></h2>
+									   <ul>
+										   <li>Operate heavy machinery used in the installation of door locks and hinges.</li>
+										   <li> Maintain a clean and sanitary work environment.</li>
+										   <li>Maintain stock within warehouse.</li>
+									   </ul>
+					               </div>
+					            </div>
+					         </article>
+							 
+							 <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-5">
+					                  <img src="/fonts/icomoon/ladybug.svg" alt="ladybug" style="width:16px;">
+					               </div>
+					               <div class="timeline-label">
+									   <h2><a href="#">Simon's Organic Solution - Exterminator</a> <span>Jul 2011 – Jun 2012</span></h2>
+									   <ul>
+										   <li>Spray organic chemical solutions, powders and gases on or near surfaces of a building to eliminate pest.</li>
+										   <li>Set mechanical traps and place bait.</li>
+										   <li>Applied various organic chemicals on lawn surfaces to eliminate or repel pest.</li>
+									   </ul>
+					               </div>
+					            </div>
+					         </article>
+							 
+							 <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-5">
+					                  <img src="/fonts/icomoon/ladybug.svg" alt="ladybug" style="width:16px;">
+					               </div>
+					               <div class="timeline-label">
+									   <h2><a href="#">Albury's Pest Control - Exterminator</a> <span>Jan 2008 – Jul 2011</span></h2>
+									   <ul>
+										   <li>Maintain and operate a variety of hand and power equipment like fogging mist machines, hand spraying
+										   	equipment, and injection pumps in applying liquids and powders.</li>
+										   <li>Locating, identifying, destroying and repelling pests.</li>
+										   <li>Assisted with the fumigation of various commercial and residential buildings.</li>
+									   </ul>
+					               </div>
+					            </div>
+					         </article>
+							 
+							 <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-5">
+					                  <img src="/fonts/icomoon/delivery-truck.svg" alt="delivery" style="width:16px;">
+					               </div>
+					               <div class="timeline-label">
+									   <h2><a href="#">Bahamas Food Services - Warehouse staff</a> <span>Jun 2007 – Jan 2008</span></h2>
+									   <ul>
+										   <li>Delivered products in refrigerated company truck.</li>
+										   <li>Complied with all safety rules and regulations.</li>
+										   <li>Load and unload product of varying size and weight either manually or with a forklift and pallet jack.
+										   <li>Enhance organization's reputation by ensuring courteous customer service.</li>
+									   </ul>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
+				</div>
+			</section>
+
+			<section class="colorlib-contact" data-section="contact">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Get in Touch</span>
+							<h2 class="colorlib-heading">Contact</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<img src="/fonts/icomoon/mail.svg" alt="mail" style="width: 100%;">
+								</div>
+								<div class="colorlib-text">
+									<p><a href="#">clevelandwilliams3579@gmail.com</a></p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<img src="/fonts/icomoon/map.svg" alt="map" style="width: 100%;">
+								</div>
+								<div class="colorlib-text">
+									<p>312 Altamonte Bay Club Circle <br> 
+										Altamonte Springs, FL 32701</p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<img src="/fonts/icomoon/telephone.svg" alt="telephone" style="width: 100%;">
+								</div>
+								<div class="colorlib-text">
+									<p><a href="tel://">+ 1 (407) 267-4838</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-7 col-md-push-1">
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
+									<form action="https://formspree.io/clevelandwilliams3579@gmail.tld" method="POST">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Name" name="name">
 										</div>
-										<div class="row">
-											<div class="col-md-12">
-												<div class="md-form"><input type="text" name="subject" id="form51" class="form-control"><label for="form51" class="">Subject</label></div>
-											</div>
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Email" name="_replyto">
 										</div>
-										<div class="row">
-											<div class="col-md-12">
-												<div class="md-form"><input type="text" name="message" id="form76" class="md-textarea" /><label for="form76">Your message</label></div>
-											</div>
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Subject">
 										</div>
-										<div class="center-on-small-only"><input type="submit" value="Send" class="btn btn-outline-black"></div>
+										<div class="form-group">
+											<textarea name="name" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+										</div>
+										<div class="form-group">
+											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
+										</div>
 									</form>
 								</div>
-								<div class="col-md-4">
-									<ul class="contact-icons">
-										<li><i class="fa fa-map-marker fa-2x"></i>
-											<p class="dark-grey-text">312 Altamonte Bay Club Cir, Altamonte Springs FL </p>
-										</li>
-										<li><i class="fa fa-phone fa-2x"></i>
-											<p class="dark-grey-text">+ 1 (407) 267-4838</p>
-										</li>
-										<li><i class="fa fa-envelope fa-2x"></i>
-											<p class="dark-grey-text">clevelandwilliams3579@gmail.com</p>
-										</li>
-									</ul>
-								</div>
+								
 							</div>
-						</section>
+						</div>
+						
 					</div>
 				</div>
 			</section>
-		</div>
-	</main>
-	<div class="dotted-scrollspy hidden-sm-down">
-		<ul class="nav smooth-scroll flex-column">
-			<li class="nav-item"><a class="nav-link" href="#home"><span></span></a></li>
-			<li class="nav-item"><a class="nav-link" href="#about"><span></span></a></li>
-			<li class="nav-item"><a class="nav-link" href="#services"><span></span></a></li>
-			<li class="nav-item"><a class="nav-link" href="#portfolio"><span></span></a></li>
-			<li class="nav-item"><a class="nav-link" href="#contact"><span></span></a></li>
-		</ul>
-	</div>
-	<footer class="page-footer grey-gradient center-on-small-only mt-5">
-		<div class="container mb-2">
-			<div class="row">
-				<div class="col-md-12 mt-1 mb-1 wow fadeIn" data-wow-delay="0.3s">
-					<div class="footer-socials mt-1 flex-center"><a href="https://github.com/cwilliams3579" target="_blank" class="btn-floating btn-large btn-secondary btn-outline-white"><i class="fa fa-github"></i></a>
-						<a
-						 href="http://codepen.io/cwilliams3579/" target="_blank" class="btn-floating btn-large btn-secondary btn-outline-white"><i class="fa fa-codepen"></i></a><a href="https://www.freecodecamp.com/cwilliams3579" target="_blank" class="btn-floating btn-large btn-secondary btn-outline-white"><i class="fa fa-fire"></i></a>
-							<a
-							 href="https://www.facebook.com/tony.gilbert.9440" target="_blank" class="btn-floating btn-large btn-secondary btn-outline-white"><i class="fa fa-facebook"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="footer-copyright wow fadeIn" data-wow-delay="0.3s">
-			<div class="container-fluid">© 2017 Copyright: <a href="https://www.cleveland-williams.com"> cleveland-williams.com </a></div>
-		</div>
-	</footer>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" async></script>
-	<script type="text/javascript" src="/js/tether.min.js" async></script>
-	<script type="text/javascript" src="/js/bootstrap.min.js" async></script>
-	<script type="text/javascript" src="/js/mdb.min.js" async></script>
-	<script>
-		//Animation initnew WOW().init();// initialize scrollspy$('body').scrollspy({target: '.dotted-scrollspy'});// initialize lightbox$(function (){$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");});$('.navbar-collapse a').click(function (){$(".navbar-collapse").collapse('hide');});
-	</script>
-	<script>
-		function myFunction() { var x = document.getElementById('about-me'); if (x.style.display === 'none') { x.style.display = 'block'; } else { x.style.display = 'none'; } }
-	</script>
-</body>
 
+			<div class="colorlib-footer text-center">
+				<p><small>&copy;
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						Copyright &copy;<script>
+							document.write(new Date().getFullYear());
+						</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i>
+						by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span></small>
+				</p>
+			</div>
+
+		</div><!-- end:colorlib-main -->
+	</div><!-- end:container-wrap -->
+	</div><!-- end:colorlib-page -->
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
+
